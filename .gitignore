@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Exported and quantized models (rebuilt by the scripts from the Day 5 model)
+models/
+
+# Private session notes (never uploaded)
+SESSION_NOTES*.txt
