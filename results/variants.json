@@ -1,0 +1,29 @@
+{
+  "check_articles": 64,
+  "fused_operators": {
+    "EmbedLayerNormalization": 1,
+    "Attention": 6,
+    "BiasGelu": 6,
+    "SkipLayerNormalization": 12
+  },
+  "variants": {
+    "onnx_fp32": {
+      "file": "model.onnx",
+      "mb": 269.7,
+      "max_abs_logit_diff_vs_fp32": 0.0,
+      "same_label_as_fp32": 64
+    },
+    "onnx_optimized": {
+      "file": "model.optimized.onnx",
+      "mb": 269.6,
+      "max_abs_logit_diff_vs_fp32": 4.5299530029296875e-06,
+      "same_label_as_fp32": 64
+    },
+    "onnx_int8": {
+      "file": "model.optimized.int8.onnx",
+      "mb": 67.7,
+      "max_abs_logit_diff_vs_fp32": 1.6794726848602295,
+      "same_label_as_fp32": 64
+    }
+  }
+}
