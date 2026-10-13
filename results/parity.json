@@ -1,0 +1,14 @@
+{
+  "opset": 17,
+  "export_seconds": 2.1,
+  "articles": 64,
+  "tokenizers_match_transformers": true,
+  "max_abs_logit_diff": 1.4722347259521484e-05,
+  "same_label": 64,
+  "onnx_mb": 269.7,
+  "onnx_files": [
+    "config.json",
+    "model.onnx",
+    "tokenizer.json"
+  ]
+}
