@@ -1,0 +1,14 @@
+{
+  "image": "onnx-news-classifier (python:3.11-slim + onnxruntime, int8 model)",
+  "image_compressed_mb": 147,
+  "image_on_disk_mb": 581,
+  "threads": 4,
+  "requests": 100,
+  "texts_per_request": 1,
+  "client_p50_ms": 59.9,
+  "client_p95_ms": 82.5,
+  "server_p50_ms": 57.5,
+  "server_p95_ms": 79.4,
+  "correct": 93,
+  "container_memory_after": "215.2MiB"
+}

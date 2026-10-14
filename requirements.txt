@@ -1,6 +1,6 @@
-# Serving: everything the Docker image needs (no PyTorch)
-onnxruntime>=1.20
-tokenizers>=0.21
-numpy>=1.26
-fastapi>=0.115
-uvicorn>=0.30
+# Serving: everything the Docker image needs (no PyTorch). Pinned so the image is reproducible.
+onnxruntime==1.31.0
+tokenizers==0.23.3
+numpy==2.4.6
+fastapi==0.143.0
+uvicorn==0.54.0

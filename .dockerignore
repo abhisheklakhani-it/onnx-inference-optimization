@@ -1,0 +1,11 @@
+.git
+.venv
+.pytest_cache
+**/__pycache__
+docs
+results
+scripts
+tests
+models/model.onnx
+models/model.optimized.onnx
+SESSION_NOTES*.txt
