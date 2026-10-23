@@ -2,6 +2,7 @@
 
 Takes the fine-tuned German DistilBERT from [german-text-classifier](https://github.com/abhisheklakhani-it/german-text-classifier) (9 news topics, 0.897 macro-F1), exports it to **ONNX**, applies **graph fusion** and **int8 dynamic quantization**, and benchmarks latency, throughput, size and accuracy against PyTorch. The fastest variant is served with **FastAPI** in a **147 MB Docker image without PyTorch**.
 
+[![CI](https://github.com/abhisheklakhani-it/onnx-inference-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/abhisheklakhani-it/onnx-inference-optimization/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-1.31-005CED?logo=onnx&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
